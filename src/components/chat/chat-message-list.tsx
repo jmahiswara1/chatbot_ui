@@ -1,16 +1,13 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import { WandSparkles } from "lucide-react";
 import { ChatMessageItem } from "@/components/chat/chat-message-item";
-import { Button } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { ChatMessage } from "@/types/chat";
 
 interface ChatLabels {
   addToEditor: string;
   copy: string;
-  regenerate: string;
 }
 
 interface ChatMessageListProps {
@@ -60,13 +57,6 @@ export function ChatMessageList({
           <div ref={bottomRef} />
         </div>
       </ScrollArea>
-
-      <div className="mt-3 flex justify-center pr-0 md:pr-2">
-        <Button type="button">
-          <WandSparkles className="h-4 w-4" />
-          {actions.regenerate}
-        </Button>
-      </div>
     </div>
   );
 }

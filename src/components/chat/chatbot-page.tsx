@@ -44,7 +44,7 @@ export function ChatbotPage() {
         </div>
 
         <Dialog open={isHistoryOpen} onOpenChange={setIsHistoryOpen}>
-          <DialogContent className="md:hidden">
+          <DialogContent className="xl:hidden">
             <ChatWorkspace.MobileHistory chat={chat} dictionary={dictionary} />
           </DialogContent>
         </Dialog>

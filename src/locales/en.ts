@@ -19,7 +19,6 @@ export const en = {
     browsePrompts: "Browse Prompts",
     noBrandVoice: "No Brand Voice",
     improve: "Improve",
-    regenerate: "Regenerate Response",
     send: "Send message",
     openHistory: "Open history",
     moreActions: "More actions",

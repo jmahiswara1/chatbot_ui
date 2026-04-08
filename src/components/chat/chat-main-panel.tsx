@@ -25,7 +25,7 @@ export function ChatMainPanel({ chat, dictionary }: ChatMainPanelProps) {
       </Button>
 
       <ChatMessageList
-        actions={dictionary.chat}
+        actions={{ addToEditor: dictionary.chat.addToEditor, copy: dictionary.chat.copy }}
         isLoading={chat.isLoading}
         isSending={chat.isSending}
         messages={chat.messages}

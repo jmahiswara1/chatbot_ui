@@ -13,10 +13,10 @@ interface ChatWorkspaceProps {
 
 function ChatWorkspaceRoot({ chat, dictionary }: ChatWorkspaceProps) {
   return (
-    <section className="grid min-h-0 flex-1 gap-3 lg:grid-cols-[minmax(0,1fr)_clamp(220px,16vw,280px)]">
+    <section className="min-h-0 flex-1 xl:grid xl:grid-cols-[minmax(720px,1fr)_clamp(220px,16vw,280px)] xl:gap-3">
       <ChatMainPanel chat={chat} dictionary={dictionary} />
 
-      <aside className="hidden min-h-0 lg:flex">
+      <aside className="hidden min-h-0 xl:flex">
         <ChatHistoryPanel
           conversations={chat.conversations}
           dictionary={dictionary}

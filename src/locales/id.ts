@@ -19,7 +19,6 @@ export const id = {
     browsePrompts: "Telusuri Prompt",
     noBrandVoice: "Tanpa Brand Voice",
     improve: "Tingkatkan",
-    regenerate: "Buat Ulang Respons",
     send: "Kirim pesan",
     openHistory: "Buka riwayat",
     moreActions: "Aksi lainnya",

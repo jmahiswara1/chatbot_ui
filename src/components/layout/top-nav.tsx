@@ -48,7 +48,7 @@ export function TopNav({
         <Button
           size="icon"
           variant="secondary"
-          className="h-10 w-10 md:hidden"
+          className="h-10 w-10 xl:hidden"
           onClick={onOpenHistory}
           type="button"
           aria-label={dictionary.chat.openHistory}
